@@ -5,8 +5,8 @@
 ### Dependencies
 
 * ROS Noetic
-* [`livox_ros_driver`](https://github.com/Livox-SDK/livox_ros_driver) (in same workspace)
-* [Livox SDK 2.3.0](https://github.com/Livox-SDK/Livox-SDK) installed
+* [`livox_ros_driver`](https://github.com/Livox-SDK/livox_ros_driver2) (in same workspace)
+* [Livox SDK 2.3.0](https://github.com/Livox-SDK/Livox-SDK2) installed
 
 ### Usage
 
