@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_BUILD_TYPE Release)
 
 find_package(catkin REQUIRED COMPONENTS
-  livox_ros_driver
+  livox_ros_driver2
   roscpp
   sensor_msgs
 )
