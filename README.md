@@ -8,10 +8,19 @@
 * [`livox_ros_driver`](https://github.com/Livox-SDK/livox_ros_driver2) (in same workspace)
 * [Livox SDK 2.3.0](https://github.com/Livox-SDK/Livox-SDK2) installed
 
+### Installation
+
+```bash
+cd ~/ws_livox/src
+git clone -b livox_ros_driver2 https://github.com/Ashkanbhz/livox2pointcloud.git      # ROS1 converter
+cd ~/ws_livox
+catkin_make
+source devel/setup.bash
+```
 ### Usage
 
 ```bash
-rosrun livox2pointcloud livox2pointcloud_node [livox_topic:="/livox/lidar"] [pointcloud_topic:="/livox/pointcloud2"]
+rosrun livox2pointcloud livox2pointcloud_node livox_topic:=/livox/lidar pointcloud_topic:=/livox/pointcloud2
 ```
 
 ### Result (Example from [Fast-LIVO](https://github.com/hku-mars/FAST-LIVO) dataset)
